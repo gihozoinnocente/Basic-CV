@@ -25,6 +25,9 @@
         justify-content: space-between;
         flex-wrap: wrap-reverse;
         padding-right: 10px;
+
+        position: fixed;
+        z-index: 10;
     }
    
    
@@ -46,6 +49,9 @@
     /* background: cornflowerblue; */
         display: flex;
         flex-wrap: wrap-reverse;
+
+        z-index: 1;
+        padding-top: 120px;
     }
     #profile{
         /* background-color: blue; */
@@ -62,9 +68,9 @@
     
     
     #experience{
-        
+/*         
         overflow:hidden;
-        overflow-y: scroll; 
+        overflow-y: scroll;  */
     
         width: 407px;
         height: 400px;
@@ -79,9 +85,9 @@
     } 
     #address{
         padding: 5%;
-        overflow:hidden;
+        /* overflow:hidden;
         overflow-y: scroll; 
-    
+     */
         width: 200px;
         height: 400px;
         color: #73808D;
