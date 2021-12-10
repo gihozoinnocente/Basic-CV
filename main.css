@@ -25,7 +25,9 @@
         /* justify-content: space-between; */
         flex-wrap: wrap-reverse;
         padding-right: 20px;
-        padding-bottom: 170px;
+        padding-left: 20px;
+        /* padding-bottom: 170px; */
+        background-color: white;
 
         position: fixed;
         z-index: 10;
@@ -95,7 +97,7 @@
     #address{
         padding-left: 5%;
         padding-right: 5%;
-        padding-bottom: 800px;
+        padding-bottom: 700px;
         /* overflow:hidden;
         overflow-y: scroll; 
      */
@@ -121,18 +123,25 @@
     }
     html,
     body{
-    background-color: black;
+    background-color: grey;
     margin:0px;
     padding: 0px;
     padding-left: 150px; 
     padding-right: 150px;
-    padding-top: 10px;
+    /* padding-top: 10px; */
     
+    }
+    .black{
+        background-color: black;
+        position: relative;
+        
+        height: 5px;
     }
     main{
         width: 100%;
         height: 1200px;
         background-color: #fff;
+        /* padding-top: 10px; */
     }
     
     .header{
