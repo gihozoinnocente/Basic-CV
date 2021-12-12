@@ -11,10 +11,10 @@
 
 <body>
     <main>
-        <div class="black"></div>
+        <!-- <div class="black"></div> -->
         <div class="header">
             <div id="text">
-                <h2>YOUR NAME</h2>
+                <h2 id="textOne">YOUR NAME</h2>
                 <h3>Senior Product Designer</h3>
             </div>
             <div id="profile">
@@ -101,7 +101,20 @@
             </div>
         </div>
     </main>
+    <script>
+        document.getElementById("text").onclick = function () {
+            var x, y, z, random_col;
+            x = Math.round(Math.random() * 256);
+            y = Math.round(Math.random() * 256);
+            z = Math.round(Math.random() * 256);
+            random_col = 'rgb(' + x + ',' + y + ',' + z + ')';
 
+            document.getElementById("text").style.color = random_col;
+        }
+
+
+
+    </script>
 </body>
 
 </html>
